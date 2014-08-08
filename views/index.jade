@@ -1,0 +1,9 @@
+html
+    head
+        link(rel="stylesheet" href="style.css")
+        script(src="bundle.js")
+    body(ng-app="boilerplate")
+        .container(ng-controller="test")
+            h1 Hello World !
+            input(type="text" ng-model="testValue")
+            span {{testValue}}
